@@ -1,0 +1,14 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Takayuki Komatsu <komatsutakayuki235@live.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
