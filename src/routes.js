@@ -2,8 +2,15 @@ const express = require("express");
 
 const routes = express.Router();
 
-routes.get("/", (req, res) => {
-  return res.json({ ProjectName: "Be The Hero" });
-});
+//Controllers
+const ongsController = require("./controllers/ongController");
+const incidentsController = require("./controllers/incidentsController");
+
+routes.post("/ongs", ongsController.create);
+routes.get("/ongs", ongsController.index);
+
+routes.get("/incidents", incidentsController.index);
+routes.post("/incidents", incidentsController.create);
+routes.delete("/incidents/:id", incidentsController.delete);
 
 module.exports = routes;
