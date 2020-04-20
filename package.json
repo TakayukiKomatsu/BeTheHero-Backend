@@ -5,6 +5,7 @@
   "author": "Takayuki Komatsu <komatsutakayuki235@live.com>",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "knex": "^0.20.15",
     "sqlite3": "^4.1.1"
