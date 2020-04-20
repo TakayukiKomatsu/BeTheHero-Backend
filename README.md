@@ -1,4 +1,11 @@
-# BeTheHero-Backend
-Be The hero Backend, made during Omnistack 11.
+# Be The Hero
 
-On this project, we used Node.js, Knex and cors 
+Este é o backend da aplicação realizada durante a **Omnistack 11**.
+
+Foi utilizado as seguintes tecnologias:
+
+- Node.js
+- Sqlite 3
+- Knex
+- Express
+- Cors
